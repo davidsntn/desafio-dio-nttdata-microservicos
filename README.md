@@ -72,3 +72,26 @@ O projeto está organizado em quatro aplicações independentes:
 - **Maven** instalado.
 - (Opcional) **Docker** instalado.
 - **Postman** para testes.
+
+## 📬 Testando no Postman
+
+Teste dos principais endpoints da aplicação utilizando o **Postman**.  
+Certifique-se de que todos os serviços estão em execução e registrados no **Eureka Server**, e que o **API Gateway** está ativo.
+
+---
+
+### 1️⃣ Listar Produtos
+**Descrição:** Retorna a lista de todos os produtos cadastrados no sistema.  
+- **Método:** `GET`  
+- **URL:** `http://localhost:8700/api/products`  
+
+**Exemplo de resposta (JSON):**
+```json
+[
+  {
+    "id": 1,
+    "name": "Notebook",
+    "description": "Notebook Gamer",
+    "price": 5000.0
+  }
+]
