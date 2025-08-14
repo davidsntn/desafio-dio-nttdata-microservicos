@@ -72,8 +72,3 @@ O projeto está organizado em quatro aplicações independentes:
 - **Maven** instalado.
 - (Opcional) **Docker** instalado.
 - **Postman** para testes.
-
-### 2️⃣ Clonar o repositório
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
